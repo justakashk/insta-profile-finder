@@ -39,5 +39,5 @@ Insta App/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/justakashk/insta-profile-finder.git
-   cd insta-profile-finder
+   cd Insta App
 
