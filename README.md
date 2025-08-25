@@ -21,3 +21,23 @@ A simple Flask web application to fetch Instagram profile details (like username
 ---
 
 ## 📂 Project Structure
+Insta App/
+│── app.py # Main Flask application
+│── templates/ # HTML templates
+│ └── index.html # Homepage with search form
+│ └── result.html # Results page
+│── static/ # CSS/JS files (if any)
+│── requirements.txt # Dependencies
+│── README.md # Project documentation
+
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/justakashk/insta-profile-finder.git
+   cd insta-profile-finder
+
