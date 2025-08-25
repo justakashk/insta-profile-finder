@@ -1,0 +1,30 @@
+body { background: #f5f6fa; }
+
+.profile-card {
+  border: 0;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.profile-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px rgba(0,0,0,0.12);
+}
+
+.avatar-wrapper { width: 120px; height: 120px; position: relative; }
+.avatar {
+  width: 120px; height: 120px; border-radius: 50%; background: #e9ecef;
+  border: 6px solid #fff; box-shadow: 0 2px 10px rgba(0,0,0,.06);
+  object-fit: cover;
+}
+.stat-number { font-weight: 700; font-size: 1.05rem; }
+.stat-label { font-size: .78rem; color: #6c757d; }
+
+/* Bootstrap placeholder tweaks */
+.placeholder { display: inline-block; }
+.placeholder.col-6 { width: 60%; height: 1rem; }
+.placeholder.col-8 { width: 80%; height: 1.2rem; }
+.placeholder-glow .placeholder { animation: placeholder-glow 1.2s ease-in-out infinite; }
+@keyframes placeholder-glow {
+  0% { opacity: .5; } 50% { opacity: .9; } 100% { opacity: .5; }
+}
